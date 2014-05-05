@@ -1,0 +1,323 @@
+/* html5doctor.com Reset v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;line-height:100%}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent; text-decoration: none; color: inherit;}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+*{
+	/*border: dashed 1px teal;*/
+	font-weight:700;
+}
+
+body{
+	background-color: #040400;
+
+}
+
+
+.all{
+	width: 100%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.allA{
+	height: 100%;
+}
+
+
+.heb4{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	z-index: 1
+	}
+
+#heb4B{
+	position: relative;
+}
+
+
+#heb4Img{
+	position: absolute;
+	display: block;
+	width: 774px;
+	min-width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 1;
+}
+
+.footer{
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	font: 1em Candara;
+	font-weight: 100;
+	color: #ddddad;
+	background-color: #040400;
+	bottom: 0px;
+	border-top: solid #4e4e30 .5em;
+	z-index: 2;
+}
+
+#papyrus{
+	font-family: SBL Biblit;
+	font-weight: 500;
+}
+
+#footer2{
+	position: relative;
+}
+
+.spacer{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	border-bottom: solid #4e4e30 .5em;
+	background-color: #040400;
+	width: 100%;
+	padding-top:3em;
+	z-index: 3;
+}
+
+
+#spacer2{
+}
+
+
+
+.logo{
+	position: relative;
+	display: block;
+	float: left;
+	max-width: 100%;
+	padding: .7em;
+	margin-top:-3em;
+	overflow: hidden;
+}
+
+/*#logo{margin-bottom: .75em}*/
+
+
+
+.icon{
+	font-family: LogosSymbolUnicode;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 96px;
+	color: #9d9d49;
+	padding-top: .26em;
+	padding-bottom: 0em;
+	padding-right: 0em;
+	padding-left: .15em;
+	line-height: 75%;
+	float: left;
+	font-weight: 500;
+	opacity: 1;
+}
+
+
+.logoA{
+	display: inline-block;
+}
+
+
+.heading {
+	font-family: Candara;
+	text-decoration: none;
+	font-size: 76px;
+	color: #ddddad;
+	padding-left: .04em;
+	line-height: 100%;
+	margin-bottom: -.05em;
+	float: left;
+}
+
+#tagline{
+	color: #afaf89;
+	font: 19px Segoe Script;
+	font-weight: 100;
+	padding-left: .2em;
+	padding-bottom: 0em;
+	line-height: 80%;
+	opacity: 1;
+
+	}
+
+
+
+
+
+.menu{
+	position:relative;
+	margin: 0;
+	float: right;
+	margin-top: 0em;
+	margin-right: .25em;
+	vertical-align: bottom;
+}
+
+.menuItem{
+	float: left;
+	font-size: 1.5em;
+	font-family: Candara;
+	color:#ddddad;
+	font-weight: 100;
+	margin: .75em;
+	margin-top: 0em;
+	line-height: 100%;
+	opacity: .8;
+
+}
+
+.menuItem1{
+	float: left;
+	font-size: 1.5em;
+	font-family: Candara;
+	color:#ddddad;
+	font-weight: 100;
+	margin: .75em;
+	margin-top: 0em;
+	line-height: 100%;
+	opacity: 1;
+
+}
+
+
+
+
+.contentA{
+	position: relative;
+	max-width: 100%;
+	width: 63em;
+	background-color: #ddddc5;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 3;
+}
+
+.content{
+	position: relative;
+	opacity: 100;
+	color: #040400;
+	font-size:1.5em;
+	max-width: 90%;
+	width: 33em;
+	padding-top: 1em;
+	padding-bottom: 10%;
+	line-height: 1.5;
+	margin-right: auto;
+	margin-left:auto;
+	z-index: 3;
+	}
+
+
+.button{
+	font-size: 1em;
+	background-color: #040400;
+	color: #ddddc5;
+	display: inline-block;
+	padding: .25em;
+	vertical-align: middle;
+	border-radius: .3em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	font-weight: 700;
+	opacity: .9;
+}
+
+.download{
+	font-family: Candara;
+	font-weight: 700;
+}
+
+.wingding{
+	font-size: .88em;
+	color: #c0903d;
+	font-family: Wingdings;
+	font-weight: 700;
+}
+
+.webding{
+	font-size: .9em;
+	background-color: #040400;
+	color: #ddddc5;
+	display: inline-block;
+	padding-left: .05em;
+	vertical-align: middle;
+	border-radius: .3em;
+	margin-right: .25em;
+	margin-bottom: 0em;
+	margin-top: -.2em;
+	font-weight: 700;
+	font-family: Webdings;
+}
+
+
+#hebKeyInfo{
+	display:none;
+}
+
+#grkKeyInfo{
+	display:none;
+}
+
+#keyInfo{
+	display:visible;
+}
+
+#chartsInfo{
+	display:visible;
+}
+
+#compChartInfo{
+	display:none;
+}
+.par{
+	font-family: Candara;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #060606;
+}
+
+.par1{
+	display: inline-block;
+	font-family: Candara;
+	line-height: 1.5;
+	font-weight: 500;
+	color: #060606;
+
+}
+
+
+.downloadTitle{
+	display: inline-block;
+	margin: auto;
+	max-width: 100%;
+	line-height: 1.5;
+	font-size: 1.25em;
+	opacity: .9;
+}
+
+
+.indent{
+
+	padding-left:2em;
+}
